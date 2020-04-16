@@ -5,7 +5,8 @@
 <sec:authentication var="info" property="principal" />
 
 <div class="text-right">
-	<span class="glyphicon glyphicon-off"></span>
 	<a href="/logout"><span><spring:message code="label.logout" arguments="" text="NA"/>
 	(${info.username})
 </div>
+
+<div>[<a href='/account')>계정관리</a>]</div>

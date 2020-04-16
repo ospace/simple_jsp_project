@@ -20,19 +20,18 @@
 	<link type="text/css" rel="stylesheet" href="/css/global.css">
 </head>
 
-<body>
-
+<body height="100%">
 	<table style="width:100%;">
-	<tr>
-		<td colspan="2" style="padding:5px;background: #efefef"><tiles:insertAttribute name="header" /></td>
-	</tr>
-	<tr>
-		<td style="width: 250px;padding:10px;margin-top:30px" valign="top"><tiles:insertAttribute name="menu" /></td>
-		<td valign="top" style="padding:20px"><tiles:insertAttribute name="body" /></td>
-	</tr>
-	
+		<tr>
+			<td colspan="2" style="padding:5px;background: #efefef"><tiles:insertAttribute name="header" /></td>
+		</tr>
+		<tr>
+			<td valign="top" style="padding:20px"><tiles:insertAttribute name="body" /></td>
+		</tr>
+        <tr>
+            <td colspan="2" style="padding:5px;background: #efefef"><tiles:insertAttribute name="footer" /></td>
+        </tr>
 	</table>
+	
 </body>
 </html>
-
-
