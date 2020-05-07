@@ -5,10 +5,6 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <sec:authentication var="info" property="principal" />
 
-Hello JSP!
-<div class="text-right">
-    <%-- <span><fmt:message key="label.logout"/></span> --%>
-	<a href="/logout"><span><spring:message code="label.logout" arguments="" text="NA"/>
-	(${info.username})
-</div>
-
+Home
+<a href="/">기본화면</a>
+<a href=“https://docs.oracle.com/javaee/5/tutorial/doc/bnajo.html” target="_blank">JSP</a>

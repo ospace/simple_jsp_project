@@ -8,13 +8,14 @@
 	
 	<!-- none -->
     <definition name="none:**"  extends=".adminTitle"  template="/WEB-INF/layouts/layout_none.jsp" >
-        <put-attribute name="body" value="/WEB-INF/view/{1}.jsp" />
+        <put-attribute name="section" value="/WEB-INF/view/{1}.jsp" />
     </definition>
     
-	<!-- admin layout -->
-    <definition name="admin:**" extends=".adminTitle"  template="/WEB-INF/layouts/layout_normal.jsp">
+    <!-- normal -->
+    <definition name="normal:**" extends=".adminTitle" template="/WEB-INF/layouts/layout_normal.jsp">
         <put-attribute name="header" value="/WEB-INF/layouts/header.jsp" />
-        <put-attribute name="body"   value="/WEB-INF/view/{1}.jsp" />
+        <put-attribute name="nav" value="/WEB-INF/layouts/nav.jsp" />
+        <put-attribute name="section" value="/WEB-INF/view/{1}.jsp" />
         <put-attribute name="footer" value="/WEB-INF/layouts/footer.jsp" />
     </definition>
 </tiles-definitions>
