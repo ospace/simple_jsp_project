@@ -49,7 +49,7 @@ public class WebSecurityConfig  extends WebSecurityConfigurerAdapter {
 			.loginPage( "/login" )
 	        .loginProcessingUrl( "/loginProc" )
 	        .defaultSuccessUrl( "/" )
-	        .failureUrl( "/login?err=1" )
+	        .failureUrl( "/login?status=1" )
 //	        .usernameParameter( "username" )
 //	        .passwordParameter( "password" )
 	        .and()

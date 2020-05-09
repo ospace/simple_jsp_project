@@ -1,6 +1,6 @@
 <%@ tag language="java" pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<%@ attribute name="pagination" type="com.tistory.ospace.simplejsp.dto.Pagination" required="true" %>
+<%@ attribute name="pagination" type="com.tistory.ospace.simplejsp.repository.PaginationDto" required="true" %>
 
 <%-- 참고: https://gangzzang.tistory.com/entry/JSP-%EC%BB%A4%EC%8A%A4%ED%85%80-%ED%83%9C%EA%B7%B8Custom-Tag --%>
 <ul class="pagination">

@@ -1,6 +1,6 @@
-package com.tistory.ospace.simplejsp.dto;
+package com.tistory.ospace.simplejsp.repository;
 
-public class Pagination {
+public class PaginationDto {
 	private int pageNo = 1;
 	private int size = 10;
 	private int limit = 10;

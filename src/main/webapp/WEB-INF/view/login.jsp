@@ -2,7 +2,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 
 <div class="container">
-    <c:if test="${!empty param.err}">
+    <c:if test="${!empty param.status}">
 	    <p>
 	        아이디와 비밀번호를 확인해 주세요
 	    </p>

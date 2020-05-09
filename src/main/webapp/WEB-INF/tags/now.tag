@@ -6,5 +6,3 @@
 <%=c.get(Calendar.YEAR)%>년
 <%=c.get(Calendar.MONTH)%>월
 <%=c.get(Calendar.DATE)%>일
-<br>
-
